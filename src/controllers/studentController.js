@@ -1,26 +1,24 @@
-const { json } = require("express");
-
+const { json } = require("express")
 exports.getAllStudents = async (req, res) => {
-    res.send(json({"Message": "Get all students"}))
-  
+  res.json({ Message: "Get all students" })
 }
 
 exports.getStudent = async (req, res) => {
-    res.send(json({ Message: "Get one student" }));
-};
+  res.json({ Message: "Get one student" })
+}
 
 exports.createStudent = async (req, res) => {
-  res.send(json({ Message: "Create student" }));
+  res.json({ Message: "Create student" })
 }
 
 exports.updateStudent = async (req, res) => {
-  res.send(json({ Message: "Update one student" }));
-};
+  res.json({ Message: "Update one student" })
+}
 
 exports.deleteStudent = async (req, res) => {
-  res.send(json({ Message: "Delete one student" }));
-};
+  res.json({ Message: "Delete one student" })
+}
 
 exports.sortStudents = async (req, res) => {
-    res.send(json({ Message: "Sort students one student" }));
+  res.json({ Message: "Sort students" })
 }
