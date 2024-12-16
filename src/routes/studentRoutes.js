@@ -15,3 +15,5 @@ router.delete('/:id', studentController.deleteStudent)
 router.get('/sort/students', studentController.sortStudents)
 
 module.exports = router
+
+
