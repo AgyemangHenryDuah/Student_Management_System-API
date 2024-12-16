@@ -1,4 +1,5 @@
 const { json } = require("express")
+
 exports.getAllStudents = async (req, res) => {
   res.json({ Message: "Get all students" })
 }
