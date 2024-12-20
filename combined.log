@@ -1,0 +1,1065 @@
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:23.889Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:23.908Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:23.968Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:24.079Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:24.235Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:24.439Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:24.704Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:25.021Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:25.381Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:25.793Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:26.261Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:26.777Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:27.286Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:27.796Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:28.305Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:28.818Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:29.331Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:29.844Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:30.361Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:30.874Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:31.384Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:31.896Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:32.416Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:32.927Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:33.438Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:33.951Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:34.464Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:34.980Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:35.492Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:36.005Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:36.520Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:37.037Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:37.549Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:38.061Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:38.572Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-17T15:30:39.085Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-17T15:31:38.494Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-17T15:38:16.223Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-17T15:38:54.287Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-17T15:40:47.800Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-17T15:44:40.426Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-17T15:44:43.232Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-17T15:45:18.483Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-17T15:45:21.859Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-17T15:45:25.250Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-17T15:45:39.404Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-17T15:45:47.243Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-17T15:46:01.117Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-17T16:16:09.758Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-17T16:33:46.768Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-17T16:33:49.203Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-17T16:33:51.877Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-17T16:33:53.501Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-17T16:33:55.161Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-17T16:33:58.104Z"}
+{"level":"error","message":"Error in creating Instructor: jwt is not defined","stack":"ReferenceError: jwt is not defined\n    at exports.createInstructor (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\src\\controllers\\instructorController.js:83:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-12-17T16:35:12.113Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-17T16:35:54.948Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-17T16:35:59.476Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-17T16:36:11.256Z"}
+{"code":11000,"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: student-management_test.users index: email_1 dup key: { email: \"john.doe@example.com\" }","index":0,"keyPattern":{"email":1},"keyValue":{"email":"john.doe@example.com"}},"index":0,"keyPattern":{"email":1},"keyValue":{"email":"john.doe@example.com"},"level":"error","message":"Error in creating Instructor: E11000 duplicate key error collection: student-management_test.users index: email_1 dup key: { email: \"john.doe@example.com\" }","stack":"MongoServerError: E11000 duplicate key error collection: student-management_test.users index: email_1 dup key: { email: \"john.doe@example.com\" }\n    at InsertOneOperation.execute (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\mongodb\\lib\\operations\\insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async tryOperation (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:203:20)\n    at async executeOperation (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:73:16)\n    at async Collection.insertOne (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\mongodb\\lib\\collection.js:157:16)","timestamp":"2024-12-17T16:36:18.190Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-17T16:37:13.032Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-18T09:28:43.904Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-18T09:28:43.929Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-18T09:28:43.987Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-18T09:28:44.094Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-18T09:28:44.251Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-18T09:28:44.469Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-18T09:28:44.735Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-18T09:28:45.049Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-18T09:28:45.413Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-18T09:28:45.829Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-18T09:28:46.298Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-18T09:28:46.816Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-18T09:28:47.327Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-18T09:28:47.844Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-18T09:28:48.356Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-18T09:28:48.867Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-18T09:28:49.378Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-18T09:28:49.890Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-18T09:28:50.403Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-18T09:28:50.923Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-18T09:28:51.433Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-18T09:28:51.948Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-18T09:28:52.464Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-18T09:28:52.977Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-18T09:28:53.495Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T09:29:20.332Z"}
+{"level":"error","message":"Expected property name or '}' in JSON at position 7","method":"POST","path":"/api/auth/login","stack":"SyntaxError: Expected property name or '}' in JSON at position 7\n    at JSON.parse (<anonymous>)\n    at parse (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\body-parser\\lib\\types\\json.js:92:19)\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at invokeCallback (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:519:28)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2024-12-18T09:31:36.463Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","method":"PUT","path":"/api/instructors/6761a8bec4420d1244e3e849","stack":"TypeError: Cannot read properties of undefined (reading 'role')\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\src\\middleware\\auth.js:28:34\n    at Layer.handle [as handle_request] (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:284:15\n    at param (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at param (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:376:14)\n    at Function.process_params (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:421:3)\n    at next (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:280:10)","timestamp":"2024-12-18T10:21:35.340Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","method":"PUT","path":"/api/instructors/6761a8bec4420d1244e3e849","stack":"TypeError: Cannot read properties of undefined (reading 'role')\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\src\\middleware\\auth.js:28:34\n    at Layer.handle [as handle_request] (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:284:15\n    at param (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at param (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:376:14)\n    at Function.process_params (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:421:3)\n    at next (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:280:10)","timestamp":"2024-12-18T10:24:44.866Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","method":"PUT","path":"/api/instructors/6762a3fbcce1ffc1aa9e0ca1","stack":"TypeError: Cannot read properties of undefined (reading 'role')\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\src\\middleware\\auth.js:28:34\n    at Layer.handle [as handle_request] (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:284:15\n    at param (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at param (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:376:14)\n    at Function.process_params (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:421:3)\n    at next (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:280:10)","timestamp":"2024-12-18T10:31:09.443Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","method":"PUT","path":"/api/instructors/6762a3fbcce1ffc1aa9e0ca1","stack":"TypeError: Cannot read properties of undefined (reading 'role')\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\src\\middleware\\auth.js:28:34\n    at Layer.handle [as handle_request] (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:284:15\n    at param (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at param (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:376:14)\n    at Function.process_params (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:421:3)\n    at next (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:280:10)","timestamp":"2024-12-18T10:31:19.007Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","method":"PUT","path":"/api/instructors/6762a3fbcce1ffc1aa9e0ca1","stack":"TypeError: Cannot read properties of undefined (reading 'role')\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\src\\middleware\\auth.js:28:34\n    at Layer.handle [as handle_request] (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:284:15\n    at param (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at param (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:376:14)\n    at Function.process_params (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:421:3)\n    at next (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:280:10)","timestamp":"2024-12-18T10:31:48.087Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","method":"PUT","path":"/api/instructors/6762a3fbcce1ffc1aa9e0ca1","stack":"TypeError: Cannot read properties of undefined (reading 'role')\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\src\\middleware\\auth.js:28:34\n    at Layer.handle [as handle_request] (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:284:15\n    at param (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at param (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:376:14)\n    at Function.process_params (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:421:3)\n    at next (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:280:10)","timestamp":"2024-12-18T10:31:50.320Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","method":"PUT","path":"/api/instructors/6762a3fbcce1ffc1aa9e0ca1","stack":"TypeError: Cannot read properties of undefined (reading 'role')\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\src\\middleware\\auth.js:28:34\n    at Layer.handle [as handle_request] (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:284:15\n    at param (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at param (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:376:14)\n    at Function.process_params (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:421:3)\n    at next (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:280:10)","timestamp":"2024-12-18T10:31:51.366Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","method":"PUT","path":"/api/instructors/6762a3fbcce1ffc1aa9e0ca1","stack":"TypeError: Cannot read properties of undefined (reading 'role')\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\src\\middleware\\auth.js:28:34\n    at Layer.handle [as handle_request] (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:284:15\n    at param (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at param (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:376:14)\n    at Function.process_params (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:421:3)\n    at next (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:280:10)","timestamp":"2024-12-18T10:31:52.454Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","method":"PUT","path":"/api/instructors/6762a3fbcce1ffc1aa9e0ca1","stack":"TypeError: Cannot read properties of undefined (reading 'role')\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\src\\middleware\\auth.js:28:34\n    at Layer.handle [as handle_request] (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:284:15\n    at param (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at param (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:376:14)\n    at Function.process_params (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:421:3)\n    at next (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:280:10)","timestamp":"2024-12-18T10:31:53.916Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","method":"PUT","path":"/api/instructors/6762a3fbcce1ffc1aa9e0ca1","stack":"TypeError: Cannot read properties of undefined (reading 'role')\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\src\\middleware\\auth.js:28:34\n    at Layer.handle [as handle_request] (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:284:15\n    at param (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at param (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:376:14)\n    at Function.process_params (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:421:3)\n    at next (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:280:10)","timestamp":"2024-12-18T10:31:55.592Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","method":"PUT","path":"/api/instructors/6762a3fbcce1ffc1aa9e0ca1","stack":"TypeError: Cannot read properties of undefined (reading 'role')\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\src\\middleware\\auth.js:28:34\n    at Layer.handle [as handle_request] (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:284:15\n    at param (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at param (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:376:14)\n    at Function.process_params (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:421:3)\n    at next (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:280:10)","timestamp":"2024-12-18T10:31:56.908Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","method":"PUT","path":"/api/instructors/6762a3fbcce1ffc1aa9e0ca1","stack":"TypeError: Cannot read properties of undefined (reading 'role')\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\src\\middleware\\auth.js:28:34\n    at Layer.handle [as handle_request] (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:284:15\n    at param (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at param (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:376:14)\n    at Function.process_params (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:421:3)\n    at next (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:280:10)","timestamp":"2024-12-18T10:36:52.592Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T10:37:51.433Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T10:45:41.131Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T10:47:30.905Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T10:47:47.085Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T11:03:21.807Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T11:06:06.206Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T11:07:25.367Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T11:07:31.022Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T11:07:32.812Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T11:07:59.664Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T11:15:50.833Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T11:16:07.465Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T11:16:13.177Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T11:16:18.253Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","method":"DELETE","path":"/api/instructors/6762a3fbcce1ffc1aa9e0ca1","stack":"TypeError: Cannot read properties of undefined (reading 'role')\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\src\\middleware\\auth.js:28:34\n    at Layer.handle [as handle_request] (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:284:15\n    at param (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at param (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:376:14)\n    at Function.process_params (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:421:3)\n    at next (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:280:10)","timestamp":"2024-12-18T11:20:24.743Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","method":"DELETE","path":"/api/instructors/6762a3fbcce1ffc1aa9e0ca1","stack":"TypeError: Cannot read properties of undefined (reading 'role')\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\src\\middleware\\auth.js:28:34\n    at Layer.handle [as handle_request] (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:284:15\n    at param (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at param (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:376:14)\n    at Function.process_params (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:421:3)\n    at next (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\express\\lib\\router\\index.js:280:10)","timestamp":"2024-12-18T11:20:36.831Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T11:21:00.445Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T11:23:52.383Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T11:24:08.545Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T11:24:32.393Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T11:24:36.010Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T11:24:43.392Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T11:24:55.173Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T11:24:59.006Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T11:25:04.190Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T11:25:09.344Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T11:25:18.382Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T12:06:56.180Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T12:11:38.357Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T12:12:01.080Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T12:12:16.345Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T12:12:40.280Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T12:12:50.828Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T12:12:55.134Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T12:16:52.788Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T12:31:17.999Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T12:31:33.010Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T12:31:44.723Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T12:31:49.935Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T12:31:56.180Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T12:37:07.671Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T12:37:11.739Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T12:52:46.782Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T12:56:21.379Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T12:56:30.738Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T13:01:05.758Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T13:01:17.206Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T13:01:22.158Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T13:01:23.903Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T13:01:39.650Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T13:02:06.476Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T13:02:33.512Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T13:02:36.902Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T13:03:35.222Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T13:03:42.343Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T13:03:46.165Z"}
+{"level":"error","message":"Error in creating Student: jwt is not defined","stack":"ReferenceError: jwt is not defined\n    at exports.createStudent (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\src\\controllers\\studentController.js:102:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-12-18T13:03:54.887Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T13:05:02.023Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T14:54:08.237Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:25:36.587Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:30:03.252Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:30:06.910Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:30:43.224Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:30:46.137Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:30:48.858Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:30:53.313Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:31:26.106Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:32:03.134Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:32:05.740Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:32:13.721Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:32:18.471Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:32:21.047Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:32:23.180Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:32:27.933Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:32:31.954Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:32:35.506Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:32:39.501Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:32:43.237Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:32:47.402Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:32:53.042Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:33:34.732Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:33:39.411Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:34:08.722Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:34:12.214Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:34:16.919Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:34:21.959Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:34:34.006Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:34:37.421Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:34:55.802Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:34:59.530Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:35:04.452Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:35:13.090Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:35:19.584Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:35:23.274Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:35:30.766Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:35:36.337Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:35:44.672Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:35:53.690Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:36:03.459Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:36:07.889Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:36:13.409Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:36:16.274Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:36:21.140Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:36:33.021Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:36:45.120Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:36:55.777Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:36:58.566Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:37:07.619Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:37:10.635Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:37:29.422Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:37:36.906Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:37:39.852Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:37:46.399Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:37:51.713Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:37:59.716Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:38:05.204Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:38:17.749Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:38:21.562Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:38:26.406Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:38:44.281Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:38:49.767Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:38:59.355Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:39:07.395Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:39:12.161Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:39:25.332Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:39:30.213Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:39:36.376Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:39:39.112Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:39:44.359Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:39:55.082Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:39:57.881Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:40:05.196Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:40:08.701Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:40:12.829Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:40:24.686Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:40:28.736Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:40:32.444Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:40:37.526Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:40:41.966Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:41:01.105Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:41:17.907Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:41:22.183Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:41:36.764Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:41:45.374Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:41:50.060Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:41:53.413Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:41:56.087Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:42:00.337Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:42:06.905Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:42:11.607Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:42:20.729Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:42:23.674Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:42:29.928Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:50:09.159Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:50:13.848Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:50:16.718Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:50:22.259Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:50:26.004Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:50:29.974Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:50:34.398Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:50:37.118Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:50:42.536Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:50:44.537Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:50:47.558Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:50:53.693Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:50:55.950Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:51:01.262Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:51:45.948Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:51:47.558Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T15:56:35.785Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T16:05:23.235Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T16:05:32.283Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T16:05:37.345Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T16:05:43.512Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T16:05:52.061Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T16:06:02.279Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T16:06:16.521Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T16:06:19.102Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T16:06:22.228Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T16:06:26.512Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T16:06:36.264Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T16:06:38.028Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T16:07:23.783Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T16:07:27.930Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T16:11:33.673Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T17:28:17.090Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T17:28:19.392Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T17:28:22.098Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T17:28:24.774Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T17:28:30.295Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T17:28:36.927Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T17:28:45.644Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-18T17:28:54.735Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:53:48.776Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:53:48.796Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:53:48.860Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:53:48.968Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:53:49.123Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:53:49.338Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:53:49.604Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:53:49.914Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:53:50.272Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:53:50.681Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:53:51.147Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:53:51.661Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:53:52.185Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:53:52.700Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:53:53.207Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:53:53.721Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:53:54.232Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:53:54.745Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:53:55.255Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:53:55.780Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:53:56.289Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:53:56.802Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:53:57.311Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:53:57.827Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:53:58.338Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:53:58.853Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:53:59.362Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:53:59.879Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:54:00.393Z"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","timestamp":"2024-12-19T08:54:00.905Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T08:54:01.418Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T08:54:23.417Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:34:40.175Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:34:49.758Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:34:54.925Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:34:59.411Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:35:06.650Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:35:12.581Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:35:42.000Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:38:42.721Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:38:53.486Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:39:26.356Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:39:30.064Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:39:46.956Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:41:39.603Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:42:14.391Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:42:20.046Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:42:24.019Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:42:30.096Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:42:37.206Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:42:51.548Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:43:30.915Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:43:36.122Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:43:44.097Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:45:54.296Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:46:01.498Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:46:04.285Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:46:25.398Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:46:43.460Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:46:57.531Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:47:07.544Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:50:19.688Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:52:48.814Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:52:51.968Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:52:56.572Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T09:53:17.455Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T11:04:43.941Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T11:05:25.622Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T11:09:04.999Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T11:14:20.953Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T11:14:26.776Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T11:14:52.267Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T11:29:59.594Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T11:30:59.809Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T11:34:23.449Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T11:34:31.220Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T11:39:15.410Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T11:39:21.492Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T11:40:05.686Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T11:42:04.646Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T12:09:03.316Z"}
+{"level":"error","message":"Expected double-quoted property name in JSON at position 65","method":"PUT","path":"/api/students/676411d39361601289b4dfa7","stack":"SyntaxError: Expected double-quoted property name in JSON at position 65\n    at JSON.parse (<anonymous>)\n    at parse (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\body-parser\\lib\\types\\json.js:92:19)\n    at C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at invokeCallback (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:519:28)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2024-12-19T12:41:45.346Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T12:51:36.345Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:35:07.696Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:35:22.370Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:35:26.303Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:35:34.302Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:35:38.311Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:36:23.036Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:39:51.468Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:40:56.034Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:41:19.323Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:41:25.380Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:53:46.026Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:53:49.031Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:53:50.668Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:53:53.815Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:54:11.915Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:54:56.762Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:55:04.908Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:55:17.807Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:55:27.987Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:55:32.024Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:55:40.648Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:55:45.916Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:55:50.587Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:55:56.917Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:56:10.270Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:56:17.104Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:56:25.212Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:56:54.991Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:57:04.586Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:57:08.077Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:57:27.084Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:57:29.906Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:57:35.909Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:57:40.948Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:57:48.681Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T13:58:01.334Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:06:35.958Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:07:08.565Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:07:55.019Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:07:57.014Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:08:00.181Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:08:22.564Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:09:27.445Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:09:44.782Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:10:08.992Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:10:11.613Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:10:15.907Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:10:20.621Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:10:25.671Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:10:32.043Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:10:37.984Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:10:43.410Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:11:55.588Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:12:05.611Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:12:37.149Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:12:40.168Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:13:51.746Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:17:10.185Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:18:56.077Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:20:19.326Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:21:10.304Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:21:50.656Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:21:54.105Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:22:16.020Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:23:03.451Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:23:36.230Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:23:43.422Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:23:45.305Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:24:23.455Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:25:44.632Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:25:52.773Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:25:55.567Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:26:00.543Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:30:23.913Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:30:30.354Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:30:34.336Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:30:41.987Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:30:59.020Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:31:12.857Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:31:20.300Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:31:55.425Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:32:01.297Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:32:08.703Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:32:37.997Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:32:58.909Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:52:23.265Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:52:34.109Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:52:43.130Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:52:48.673Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:52:59.999Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:55:47.868Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:55:49.897Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:56:14.440Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:56:53.303Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:56:56.029Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:57:08.829Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T14:57:34.271Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T15:21:07.220Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T15:21:15.234Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T15:25:23.389Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T15:30:00.031Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T15:35:43.934Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T15:36:12.025Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T15:36:28.319Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T15:36:39.191Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T15:36:56.170Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T15:37:01.414Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T15:37:54.180Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T15:42:12.114Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T15:47:18.897Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T15:49:04.082Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T15:51:03.493Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T15:51:19.293Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T15:51:22.502Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T15:52:33.994Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T15:52:40.811Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T15:53:47.462Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T15:54:19.500Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T15:54:38.034Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T15:54:48.861Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T15:54:56.534Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T15:55:02.373Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T15:55:06.829Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:30:30.355Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:30:38.065Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:30:42.289Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:30:50.034Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:30:53.576Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:30:56.210Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:31:06.192Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:31:09.604Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:31:16.264Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:31:24.026Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:31:29.180Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:31:40.996Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:31:55.930Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:31:58.879Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:32:06.863Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:32:12.537Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:32:15.314Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:32:18.622Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:32:21.607Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:32:25.232Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:34:23.744Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:37:19.387Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:37:24.396Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:37:27.630Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:37:32.293Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:37:36.041Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:37:40.511Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:37:47.806Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:37:53.008Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:37:57.647Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:40:01.145Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:40:15.479Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:40:26.429Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:40:31.783Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:40:34.717Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:40:39.265Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:40:43.720Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:40:48.881Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:40:54.066Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:40:56.769Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:41:02.293Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:41:05.989Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:42:44.871Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:42:53.515Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:43:01.514Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:43:25.766Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:43:38.534Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:43:42.319Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:43:50.866Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:43:53.273Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:43:57.326Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:44:11.215Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:44:27.202Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:44:34.266Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:44:51.536Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:44:54.715Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:44:58.347Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:45:02.841Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:45:07.639Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:45:31.691Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:45:43.414Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:45:46.075Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:45:50.666Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:45:58.201Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:46:05.790Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:46:08.326Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:46:18.289Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:46:21.065Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:46:23.323Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:46:27.510Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:46:50.364Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:47:11.199Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:47:24.667Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:47:27.728Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:47:43.010Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:47:56.665Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:48:33.552Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:48:38.983Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:48:44.678Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:48:48.052Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:49:34.931Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:49:37.431Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:49:42.694Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:49:44.886Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:49:48.328Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:49:50.487Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:49:58.147Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T16:50:01.897Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T17:17:42.424Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T17:17:48.249Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T17:17:50.799Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T17:17:56.531Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T17:29:06.904Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T17:29:10.500Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T17:29:13.528Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T17:29:19.318Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T17:29:43.016Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T17:29:46.639Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T17:30:17.246Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T17:30:27.659Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T17:30:55.256Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T17:30:58.997Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T17:31:01.240Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T17:31:05.237Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T17:31:09.279Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T17:31:12.407Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T17:31:14.862Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T17:31:16.509Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T17:31:19.975Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-19T17:33:22.303Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:26:55.717Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:28:43.424Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:46:49.976Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:48:17.007Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:48:29.175Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:48:32.901Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:48:43.297Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:48:48.855Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:48:53.227Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:48:56.340Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:51:31.279Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:51:35.786Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:51:38.207Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:51:42.472Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:51:45.323Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:51:53.180Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:51:55.814Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:52:05.596Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:52:08.710Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:52:11.190Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:52:15.339Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:52:23.675Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:52:29.088Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:52:32.511Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:52:35.808Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:52:42.242Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:52:53.318Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:53:00.009Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:53:20.290Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:53:34.199Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:54:04.852Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:54:38.102Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:54:57.443Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:55:22.756Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:55:30.571Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:55:38.268Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:55:47.401Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:55:50.160Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:55:54.032Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:56:16.974Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:56:20.249Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:56:40.166Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:56:58.376Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:57:10.785Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:57:16.199Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:57:26.148Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:57:30.217Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:57:33.492Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:57:40.849Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:59:19.723Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T08:59:22.855Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:00:25.024Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:00:29.527Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:00:32.035Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:00:35.734Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:00:46.007Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:01:01.605Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:01:05.739Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:01:10.652Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:01:15.374Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:01:46.850Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:02:14.318Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:02:41.337Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:02:43.987Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:02:57.024Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:03:00.831Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:03:04.648Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:03:09.623Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:08:23.459Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:10:26.732Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:10:41.991Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:10:44.861Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:10:48.283Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:10:51.229Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:11:00.062Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:11:04.105Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:11:47.738Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:11:53.779Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:11:59.355Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:12:23.191Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:12:35.779Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:12:51.217Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:13:03.323Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:13:31.153Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:13:57.210Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:14:07.063Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:14:19.809Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:14:24.790Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:14:29.760Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:14:34.343Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:14:39.169Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:14:51.310Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:14:54.930Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:14:58.504Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:16:03.602Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:16:09.371Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:16:40.487Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:16:43.569Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:17:28.883Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:17:57.285Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:20:01.919Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:20:05.157Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:20:22.406Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:20:50.317Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:20:52.434Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:33:02.880Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:34:37.988Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:35:08.756Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:35:50.742Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:35:59.057Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:36:06.792Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:36:38.166Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:36:40.965Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:36:45.342Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:36:47.922Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:36:57.006Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:38:01.040Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:38:03.013Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:38:08.191Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:38:16.909Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:38:22.691Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:38:24.936Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:38:37.845Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:38:41.134Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:38:51.690Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:39:41.959Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:39:47.528Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:40:12.685Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:40:20.962Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:40:41.257Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:40:44.157Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:40:46.900Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:40:51.614Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:40:56.172Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:41:04.000Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:41:07.084Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:41:31.524Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:41:36.696Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:41:42.291Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:41:49.522Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:41:56.445Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:41:59.828Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:42:12.917Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:42:16.264Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:42:20.254Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:42:23.557Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:42:26.474Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:54:04.641Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:54:17.357Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:54:27.665Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:54:39.846Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:54:42.762Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:54:55.013Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:54:58.326Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:55:03.702Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:55:06.837Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:55:10.271Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:55:20.035Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:55:39.420Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:56:01.042Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:56:11.775Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:56:19.448Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:56:31.135Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:56:42.336Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:56:46.895Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:56:50.431Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:56:54.957Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:56:58.576Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:57:03.661Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:57:10.095Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:57:23.591Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:57:29.168Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:57:37.854Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:57:42.378Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:57:52.837Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T09:58:01.228Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T11:09:25.443Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T11:09:29.105Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T11:09:34.892Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T11:09:42.325Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T11:09:48.962Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T11:09:54.278Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T11:14:02.509Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T11:14:05.457Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T11:14:08.212Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T11:14:11.085Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T11:14:14.129Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T11:14:20.847Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T11:14:23.731Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T11:14:30.591Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T11:20:32.532Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T11:20:37.915Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T11:20:41.818Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T11:29:26.924Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T11:40:27.988Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T11:40:34.583Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T11:40:39.428Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T11:40:44.220Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T11:40:46.644Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T11:53:14.443Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T11:53:20.140Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T11:56:30.314Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T11:56:42.514Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T12:00:36.766Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T12:05:55.842Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T12:07:08.976Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T12:07:19.448Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T12:07:59.738Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T12:08:10.875Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T12:09:40.450Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T12:10:05.755Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T12:10:19.535Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T12:11:16.445Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T12:11:24.234Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T12:11:26.839Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T12:11:32.586Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T12:11:47.303Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T12:13:43.355Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T12:36:20.296Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T12:42:40.265Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T12:43:03.993Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T12:53:49.855Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T12:58:18.919Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:00:13.113Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:00:18.764Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:00:27.306Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:00:29.762Z"}
+{"code":20,"codeName":"IllegalOperation","errorResponse":{"code":20,"codeName":"IllegalOperation","errmsg":"Transaction numbers are only allowed on a replica set member or mongos","ok":0},"level":"error","message":"Error in createInstructor - User Email: samuel.doe@example.com: Transaction numbers are only allowed on a replica set member or mongos","ok":0,"stack":"MongoServerError: Transaction numbers are only allowed on a replica set member or mongos\n    at Connection.sendCommand (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\mongodb\\lib\\cmap\\connection.js:296:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Connection.command (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\mongodb\\lib\\cmap\\connection.js:323:26)\n    at async Server.command (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\mongodb\\lib\\sdam\\server.js:170:29)\n    at async InsertOneOperation.executeCommand (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\mongodb\\lib\\operations\\command.js:76:16)\n    at async InsertOneOperation.execute (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\mongodb\\lib\\operations\\insert.js:37:16)\n    at async InsertOneOperation.execute (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\mongodb\\lib\\operations\\insert.js:46:21)\n    at async tryOperation (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:203:20)\n    at async executeOperation (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:73:16)\n    at async Collection.insertOne (C:\\Users\\HenryDuahAgyemang\\Documents\\Student_Management_System-API\\node_modules\\mongodb\\lib\\collection.js:157:16)","timestamp":"2024-12-20T13:00:36.660Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:01:26.032Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:01:29.652Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:01:35.956Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:01:44.754Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:01:49.494Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:01:55.317Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:02:02.744Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:02:07.510Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:18:37.562Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:18:55.375Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:22:34.679Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:25:24.161Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:37:46.842Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:37:51.594Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:37:59.301Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:38:06.919Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:38:13.746Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:38:22.176Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:38:26.032Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:38:49.348Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:38:53.327Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:38:55.882Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:48:42.998Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:48:45.766Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:49:18.019Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T13:49:22.882Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:02:56.186Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:05:42.816Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:05:47.102Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:07:35.025Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:07:55.972Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:08:42.393Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:09:02.127Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:09:08.561Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:09:13.467Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:09:40.620Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:10:09.815Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:13:07.407Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:14:02.779Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:14:42.252Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:14:44.400Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:14:54.313Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:14:58.806Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:15:02.808Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:16:13.358Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:18:00.154Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:18:31.628Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:18:33.474Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:18:40.035Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:18:43.460Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:18:46.134Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:18:55.885Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:19:33.295Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:19:40.271Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:19:45.488Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:19:49.154Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:19:54.376Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:20:39.935Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:20:56.010Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:21:16.418Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:30:59.761Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:31:40.464Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:32:11.983Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:32:33.479Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:32:41.802Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:32:46.551Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:32:57.152Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:42:35.145Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:42:52.691Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:51:26.966Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:51:30.870Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:51:36.046Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:51:43.691Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:51:46.923Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:52:05.431Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:52:13.103Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:52:15.596Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:52:40.762Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:53:14.419Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:53:25.489Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:53:30.585Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:53:35.891Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:53:38.953Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:53:49.431Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:53:52.729Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:53:58.157Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:54:01.786Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:54:08.137Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:54:21.373Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:54:26.548Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:54:47.064Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:55:04.996Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:55:08.209Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:55:10.240Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:55:20.650Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:55:22.597Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:55:35.488Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:55:47.715Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:55:58.013Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:56:03.253Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:56:08.171Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:56:10.734Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T14:56:30.359Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:12:17.706Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:17:38.619Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:18:10.539Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:18:19.043Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:18:22.025Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:18:44.937Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:19:21.147Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:19:26.173Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:19:54.869Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:19:56.902Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:20:02.062Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:20:04.267Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:20:06.946Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:20:32.725Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:22:17.626Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:23:31.115Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:23:33.457Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:23:37.243Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:23:40.950Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:23:45.768Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:23:48.941Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:24:13.306Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:28:59.436Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:29:04.379Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:29:11.950Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:29:18.658Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:29:23.687Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:29:27.763Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:29:31.407Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:29:33.163Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:29:53.614Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:29:58.106Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:30:02.053Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:30:07.744Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:30:12.052Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:38:46.383Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:40:17.480Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:56:01.405Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:57:17.930Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:58:37.014Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:58:42.698Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:59:05.753Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:59:08.477Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:59:09.960Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:59:14.610Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:59:16.476Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:59:18.670Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:59:22.317Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:59:24.127Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:59:26.576Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:59:29.178Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:59:31.762Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:59:33.371Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:59:35.816Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:59:38.551Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:59:42.515Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:59:52.694Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:59:54.606Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T15:59:58.225Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:18:28.248Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:39:43.523Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:40:23.260Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:42:35.936Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:44:22.928Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:44:25.829Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:44:45.545Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:46:29.298Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:46:32.359Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:46:38.878Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:46:41.806Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:46:44.673Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:46:50.443Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:46:53.787Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:46:58.023Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:47:02.511Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:47:46.226Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:47:52.918Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:47:57.363Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:48:00.192Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:48:02.679Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:48:23.067Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:48:42.818Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:49:25.485Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:49:27.221Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:49:40.532Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:50:09.179Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:50:51.524Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:50:53.801Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:51:41.959Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:52:15.093Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:52:37.461Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:53:47.869Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:53:49.598Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:54:12.242Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:54:14.704Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:54:42.405Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:55:05.515Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:55:36.960Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:55:58.656Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T16:59:04.774Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T17:00:07.025Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T17:01:49.995Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T17:02:43.082Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T17:02:45.003Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T17:04:03.265Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T17:04:06.100Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T17:04:35.610Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T17:05:54.693Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T17:06:38.836Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T17:11:58.474Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T17:12:02.809Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T17:12:09.754Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T17:12:11.437Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T17:12:14.212Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T17:12:15.841Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T17:12:21.481Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T17:12:27.526Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T17:12:42.510Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T17:12:51.786Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T17:13:01.237Z"}
+{"level":"info","message":"MongoDB Database Connected successfully","timestamp":"2024-12-20T17:13:01.250Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T17:17:06.437Z"}
+{"level":"info","message":"MongoDB Database Connected successfully","timestamp":"2024-12-20T17:17:06.450Z"}
+{"level":"info","message":"Redis Client Connected","timestamp":"2024-12-20T17:17:34.984Z"}
+{"level":"info","message":"MongoDB Database Connected successfully","timestamp":"2024-12-20T17:17:34.996Z"}
