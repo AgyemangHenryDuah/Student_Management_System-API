@@ -2,7 +2,6 @@ const express = require("express");
 const router = express.Router();
 const authController = require("../controllers/authController");
 
-
 /**
  * @swagger
  * /api/auth/login:
@@ -44,7 +43,7 @@ router.post("/login", authController.login);
 
 /**
  * @swagger
- * /api/auth/password-reset:
+ * /api/auth/reset-password:
  *   post:
  *     tags: [Authentication]
  *     summary: Reset password
@@ -67,6 +66,6 @@ router.post("/login", authController.login);
  *       404:
  *         description: User not found
  */
-router.post("/password-reset", authController.resetPassword);
+router.post("/reset-password", authController.resetPassword);
 
 module.exports = router;

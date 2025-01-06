@@ -49,8 +49,8 @@ const instructorController = require("../controllers/instructorController");
  *       201:
  *         description: Instructor created successfully
  */
-router.get("/", authorize("instructor"), instructorController.getAllInstructors);
-router.post("/", authorize("instructor"), instructorController.createInstructor);
+router.get("/", auth,authorize("instructor"), instructorController.getAllInstructors);
+router.post("/", auth, authorize("instructor"), instructorController.createInstructor);
 
 /**
  * @swagger
@@ -109,7 +109,7 @@ router.post("/", authorize("instructor"), instructorController.createInstructor)
  *         description: Instructor deleted successfully
  */
 router.get("/:id", auth, instructorController.getInstructor);
-router.put("/:id", authorize("instructor"), instructorController.updateInstructor);
-router.delete("/:id", authorize("instructor"), instructorController.deleteInstructor);
+router.put("/:id", auth, authorize("instructor"), instructorController.updateInstructor);
+router.delete("/:id", auth, authorize("instructor"), instructorController.deleteInstructor);
 
 module.exports = router;
