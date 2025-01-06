@@ -1,3 +1,20 @@
-node_modules
+# Dependencies
+node_modules/
+
+# Environment variables
 .env
-.log
+
+# Logs
+*.log
+combined.log
+error.log
+
+# Test coverage
+coverage/
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+.DS_Store
