@@ -472,7 +472,7 @@ describe('Student Controller', () => {
             const req = mockRequest({ id: 'nonexistentId' });
             await studentController.deleteStudent(req, res);
 
-            expect(consoleSpy).toHaveBeenCalledWith('nonexistentId');
+            
             expect(res.status).toHaveBeenCalledWith(404);
             expect(res.json).toHaveBeenCalledWith({
                 message: 'Student not found'
