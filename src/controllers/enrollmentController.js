@@ -2,6 +2,7 @@ const Enrollment = require("../models/Enrollment");
 const Course = require("../models/Course");
 const Student = require("../models/Student");
 const { validateEnrollment } = require("../validators/enrollmentValidator");
+const logger = require("../config/logger")
 
 exports.enrollStudent = async (req, res) => {
   try {

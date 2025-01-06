@@ -1,8 +1,7 @@
-const { required } = require("joi")
 const Course = require("../models/Course")
 const { validateCourse } = require("../validators/courseValidator")
-const { merge } = require("../server")
 const { mergeSort, quickSort } = require("../utils/sortingAlgorithms")
+const logger = require("../config/logger")
 
 exports.getAllCourses = async (req, res) => {
   try {
@@ -26,7 +25,7 @@ exports.getAllCourses = async (req, res) => {
 
     res.json({ courses, totalPages: Math.ceil(total / limit), currentPage: parseInt(page), })
   } catch (error) {
-    loggers.error("Error in getting all courses:", error)
+    logger.error("Error in getting all courses:", error)
     res.status(500).json({ message: error.message })
   }
 }
@@ -102,7 +101,7 @@ exports.deleteCourse = async (req, res) => {
     res.json({ message: "Course deleted successfully" })
   } catch (error) {
   
-    console.error("Error in deleteCourse:", error)
+    logger.error("Error in deleteCourse:", error)
     res.status(500).json({ message: error.message })
   }
 }
@@ -111,7 +110,7 @@ exports.deleteCourse = async (req, res) => {
 
 exports.sortCourses = async (req, res) => {
   try {
-    const { field, algorithm = quick } = req.query
+    const { field, algorithm = 'quick' } = req.query
     
     if (!field) {
       return res.status(400).json({message: "Sorting field is required"})

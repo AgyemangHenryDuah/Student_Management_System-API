@@ -13,7 +13,7 @@ exports.getAllInstructors = async (req, res) => {
 
 
     if (isNaN(page) || page < 1 || isNaN(limit) || limit < 1) {
-      return res.status(400).json({message: "Invalid pagination parameters"})
+      return res.status(400).json({ message: "Invalid pagination parameters" })
     }
 
     if (department) query.department = department
@@ -67,9 +67,9 @@ exports.createInstructor = async (req, res) => {
     }
 
     const existingUser = await User.findOne({ email: req.body.email })
-    
+
     if (existingUser) {
-      return res.status(400).json({message: "Email is already in use"})
+      return res.status(400).json({ message: "Email is already in use" })
     }
 
 
@@ -114,43 +114,59 @@ exports.createInstructor = async (req, res) => {
 }
 
 
+const mongoose = require('mongoose');
+
 exports.updateInstructor = async (req, res) => {
   try {
-    const { error } = validateInstructor(req.body, "PUT")
-    if (error) {
-      return res.status(400).json({ message: error.details[0].message })
+    if (!mongoose.Types.ObjectId.isValid(req.params.id)) {
+      return res.status(400).json({ message: "Invalid instructor ID" });
     }
 
-    const instructor = await Instructor.findByIdAndUpdate(req.params.id,{$set: req.body},{ new: true }).populate("user", "firstName lastName email")
+    const instructor = await Instructor.findById(req.params.id);
 
     if (!instructor) {
-      return res.status(404).json({ message: "Instructor not found" })
+      return res.status(404).json({ message: "Instructor not found" });
     }
 
-    res.json(instructor)
-  } catch (error) {
-    logger.error("Error in updateInstructor:", error)
-    res.status(500).json({ message: error.message })
-  }
-}
+    const { error } = validateInstructor(req.body, "PUT");
+    if (error) {
+      return res.status(400).json({ message: error.details[0].message });
+    }
 
+    const updatedInstructor = await Instructor.findByIdAndUpdate(
+      req.params.id,
+      { $set: req.body },
+      { new: true }
+    ).populate("user", "firstName lastName email");
+
+    res.json(updatedInstructor);
+  } catch (error) {
+    logger.error("Error in updateInstructor:", error);
+    res.status(500).json({ message: error.message });
+  }
+};
 
 
 exports.deleteInstructor = async (req, res) => {
   try {
+    if (!mongoose.Types.ObjectId.isValid(req.params.id)) {
+      return res.status(400).json({ message: "Invalid instructor ID" });
+    }
     const instructor = await Instructor.findById(req.params.id)
+
     if (!instructor) {
       return res.status(404).json({ message: "Instructor not found" })
     }
 
-    const userId = instructor.user._id
+    if (instructor.user) {
+      await User.findByIdAndDelete(instructor.user)
+    }
 
-    await User.findByIdAndDelete(userId)
 
     await Instructor.findByIdAndDelete(req.params.id)
 
     res.json({ message: "Instructor profile deleted successfully" })
-    logger.info(`Deleting user with ID: ${userId}`)
+    logger.info(`Deleted instructor with ID: ${req.params.id}`);
   } catch (error) {
     logger.error("Error in deleteInstructor:", error)
     res.status(500).json({ message: error.message })
