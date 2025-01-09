@@ -49,8 +49,8 @@ const instructorController = require("../controllers/instructorController");
  *       201:
  *         description: Instructor created successfully
  */
-router.get("/", auth,authorize("instructor"), instructorController.getAllInstructors);
-router.post("/", auth, authorize("instructor"), instructorController.createInstructor);
+router.get("/", auth, authorize("instructor"), instructorController.getAllInstructors);
+router.post("/", auth, authorize("instructor"),instructorController.createInstructor);
 
 /**
  * @swagger
