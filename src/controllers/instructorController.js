@@ -2,7 +2,7 @@ const Instructor = require("../models/Instructor")
 const User = require("../models/User")
 const { validateInstructor } = require("../validators/instructorValidator")
 const logger = require("../config/logger")
-const jwt = require("jsonwebtoken")
+const { generateAccessToken, generateRefreshToken } = require("../utils/token")
 
 
 
@@ -94,7 +94,10 @@ exports.createInstructor = async (req, res) => {
 
     await instructor.save()
 
-    const token = jwt.sign({ id: user._id, role: user.role }, process.env.JWT_SECRET, { expiresIn: "24h" })
+    // const token = jwt.sign({ id: user._id, role: user.role }, process.env.JWT_SECRET, { expiresIn: "24h" })
+    const accessToken = generateAccessToken(user._id, user.role)
+    const refreshToken = generateRefreshToken(user._id, user.role)
+    
 
     const populatedInstructor = await Instructor.findById(
       instructor._id
@@ -102,7 +105,8 @@ exports.createInstructor = async (req, res) => {
 
     res.status(201).json({
       message: "Instructor registered succefully",
-      token,
+      accessToken,
+      refreshToken,
       instructor: populatedInstructor,
     })
 
@@ -141,7 +145,6 @@ exports.updateInstructor = async (req, res) => {
 
     res.json(updatedInstructor);
   } catch (error) {
-    logger.error("Error in updateInstructor:", error);
     res.status(500).json({ message: error.message });
   }
 };

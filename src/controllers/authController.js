@@ -1,110 +1,98 @@
-const jwt = require("jsonwebtoken")
 const User = require("../models/User")
+const { validateLogin, validateRefreshToken, validateResetPassword } = require("../validators/authValidator")
+const { generateAccessToken, generateRefreshToken } = require("../utils/token")
+const jwt = require("jsonwebtoken")
 
-const generateToken = (id) => {
-  try {
-    return jwt.sign({ id }, process.env.JWT_SECRET, {
-      expiresIn: "24h",
-    })
-  } catch (error) {
-    throw new Error('Token generation failed')
-  }
-}
-
-const validateEmail = (email) => {
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
-  return emailRegex.test(email)
-}
 
 exports.login = async (req, res) => {
   try {
     const { email, password } = req.body
+    const errors = validateLogin({ email, password })
 
-    // Check for missing fields
-    if (!email && !password) {
-      return res.status(400).json({ message: "Email and password are required" })
-    }
-    if (!email) {
-      return res.status(400).json({ message: "Email is required" })
-    }
-    if (!password) {
-      return res.status(400).json({ message: "Password is required" })
-    }
-
-    // Validate email format
-    if (!validateEmail(email)) {
-      return res.status(400).json({ message: "Invalid email format" })
-    }
-
-    // Validate password length
-    if (password.length < 6) {
-      return res.status(400).json({ message: "Password must be at least 6 characters" })
+    if (errors) {
+      return res.status(400).json({ message: errors })
     }
 
     const user = await User.findOne({ email })
 
-    if (!user) {
+    if (!user || !(await user.comparePassword(password))) {
       return res.status(401).json({ message: "Invalid credentials" })
     }
 
-    let isValidPassword
-    try {
-      isValidPassword = await user.comparePassword(password)
-    } catch (error) {
-      return res.status(500).json({ message: error.message })
-    }
-
+    const isValidPassword = await user.comparePassword(password)
     if (!isValidPassword) {
-      return res.status(401).json({ message: "Invalid credentials" })
+      return res.status(401).json({ message: "Invalid password" })
     }
 
-    const token = generateToken(user._id)
-    res.json({ token, role: user.role, message: "Login Successful" })
+
+    const accessToken = generateAccessToken(user._id, user.role)
+    const refreshToken = generateRefreshToken(user._id, user.role)
+
+    res.json({
+      accessToken,
+      refreshToken,
+      role: user.role,
+      message: "Login Successful"
+    })
   } catch (error) {
     res.status(500).json({ message: error.message })
   }
 }
 
-exports.resetPassword = async (req, res) => {
-  const { email } = req.body
 
-  if (!email) {
-    return res.status(400).json({ message: "Email is required" })
+exports.refreshToken = async (req, res) => {
+  const { refreshToken } = req.body
+  const errors = validateRefreshToken({ refreshToken })
+
+  if (errors) {
+    return res.status(400).json({ message: errors })
   }
 
-  if (!validateEmail(email)) {
-    return res.status(400).json({ message: "Invalid email format" })
-  }
 
-  res.status(501).json({ message: "Under Construction" })
+  try {
+    const decoded = jwt.verify(refreshToken, process.env.JWT_SECRET)
+
+    const accessToken = generateAccessToken(decoded.id, decoded.role)
+    res.json({ accessToken })
+  }
+  catch (error) {
+    res.status(401).json({ message: "Invalid or expired refresh token" })
+  }
 }
 
+exports.resetPassword = async (req, res) => {
+  try {
+    const { email, password } = req.body;
+    const errors = validateResetPassword({ email, password });
 
-// const jwt = require("jsonwebtoken")
-// const User = require("../models/User")
+    if (errors) {
+      return res.status(400).json({ message: errors });
+    }
 
-// const generateToken = (id) => {
-//   return jwt.sign({ id }, process.env.JWT_SECRET, {
-//     expiresIn: "24h",
-//   })
-// }
+    // Find user by email
+    const user = await User.findOne({ email });
+    if (!user) {
+      return res.status(404).json({ message: "No user found with this email" });
+    }
 
-// exports.login = async (req, res) => {
-//   try {
-//     const { email, password } = req.body
-//     const user = await User.findOne({ email })
+    // Update password
+    user.password = password;
+    await user.save();
 
-//     if (!user || !(await user.comparePassword(password))) {
-//       return res.status(401).json({ message: "Invalid credentials" })
-//     }
+    // Generate new tokens
+    const accessToken = generateAccessToken(user._id, user.role);
+    const refreshToken = generateRefreshToken(user._id, user.role);
 
-//     const token = generateToken(user._id)
-//     res.json({ token, role: user.role, message: "Login Successful" },)
-//   } catch (error) {
-//     res.status(500).json({ message: error.message })
-//   }
-// }
+    res.status(200).json({
+      message: "Password reset successful",
+      accessToken,
+      refreshToken
+    });
 
-// exports.resetPassword = async (req, res) => {
-//   res.status(501).json({ message: "Under Construction" })
-// }
+  } catch (error) {
+    res.status(500).json({
+      message: "Error resetting password",
+      error: error.message
+    });
+  }
+};

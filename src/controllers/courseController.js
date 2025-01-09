@@ -75,7 +75,7 @@ exports.updateCourse = async (req, res) => {
     }
 
 
-    const course = await Course.findOneAndUpdate({ courseCode: req.params }, req.body, { new: true })
+    const course = await Course.findOneAndUpdate({ courseCode: req.params.courseCode }, req.body, { new: true })
 
     if (!course) {
       return res.status(404).json({ message: "Course not found" })

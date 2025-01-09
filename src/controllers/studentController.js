@@ -4,6 +4,7 @@ const { validateStudent } = require("../validators/studentValidator");
 const { quickSort, mergeSort } = require("../utils/sortingAlgorithms");
 const logger = require("../config/logger");
 const jwt = require("jsonwebtoken");
+const { generateAccessToken, generateRefreshToken } = require("../utils/token");
 
 
 exports.getAllStudents = async (req, res) => {
@@ -11,7 +12,7 @@ exports.getAllStudents = async (req, res) => {
     const { name, grade, department, sort, page = 1, limit = 10 } = req.query;
     const query = {};
 
-    
+
     if (name) {
       const nameRegex = new RegExp(name, "i");
       query["$or"] = [
@@ -31,7 +32,7 @@ exports.getAllStudents = async (req, res) => {
 
     const total = await Student.countDocuments(query);
 
-    
+
     if (sort) {
       const sortField = sort.startsWith("-") ? sort.substring(1) : sort;
       const sortOrder = sort.startsWith("-") ? -1 : 1;
@@ -105,11 +106,10 @@ exports.createStudent = async (req, res) => {
 
     await student.save();
 
-    const token = jwt.sign(
-      { id: user._id, role: user.role },
-      process.env.JWT_SECRET,
-      { expiresIn: "24h" }
-    );
+    const accessToken = generateAccessToken(user._id, user.role);
+    const refreshToken = generateRefreshToken(user._id, user.role);
+
+    
 
     const populatedStudent = await Student.findById(student._id).populate(
       "user",
@@ -118,7 +118,8 @@ exports.createStudent = async (req, res) => {
 
     res.status(201).json({
       message: "Student created succefully",
-      token,
+      accessToken,
+      refreshToken,
       student: populatedStudent,
     });
   } catch (error) {
@@ -201,7 +202,7 @@ exports.deleteStudent = async (req, res) => {
   try {
     const student = await Student.findById(req.params.id);
     if (!student) {
-      console.log(req.params.id);
+
       return res.status(404).json({ message: "Student not found" });
     }
 
@@ -225,6 +226,9 @@ exports.sortStudents = async (req, res) => {
     if (!field) {
       return res.status(400).json({ message: "Sorting field is required" });
     }
+
+    logger.info('Sorting students with params:', req.query);
+
 
     const students = await Student.find()
       .populate("user", "firstName lastName email")
