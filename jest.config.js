@@ -10,7 +10,7 @@ module.exports = {
         "src/routes/",
         "src/utils/",
         "src/config/",
-        "src/validators/",
         "src/swagger/",
-    "src/middleware/"],
+        "src/middleware/",
+    "src/app.js"],
 };
