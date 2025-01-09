@@ -35,6 +35,7 @@ app.use("/api/courses", courseRoutes);
 app.use("/api/enrollments", enrollmentRoutes);
 app.use("/api/instructors", instructorRoutes);
 
+
 app.get("/health", (req, res) => {
     res.status(200).json({ status: "OK" });
 });
