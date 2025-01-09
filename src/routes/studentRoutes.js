@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const { auth, authorize } = require("../middleware/auth");
+const { auth, authorize, OwnProfile } = require("../middleware/auth");
 const cache = require("../middleware/cache");
 const studentController = require("../controllers/studentController");
 
@@ -138,7 +138,7 @@ router.get("/:id", auth, studentController.getStudent);
  */
 router.post("/", auth, authorize("instructor"), studentController.createStudent);
 
-router.put("/:id", auth, studentController.updateStudent);
+router.put("/:id", auth, authorize("instructor", "student"), OwnProfile,studentController.updateStudent);
 
 router.delete("/:id", auth, authorize("instructor"), studentController.deleteStudent);
 
