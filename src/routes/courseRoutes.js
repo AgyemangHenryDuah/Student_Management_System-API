@@ -40,6 +40,54 @@ router.get("/", auth, cache(300), courseController.getAllCourses);
 
 /**
  * @swagger
+ * /api/courses:
+ *   post:
+ *     tags: [Courses]
+ *     summary: Create new course
+ *     security:
+ *       - bearerAuth: []
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             $ref: '#/components/schemas/Course'
+ *     responses:
+ *       201:
+ *         description: Course created successfully
+ */
+router.post("/", auth, authorize("instructor"), courseController.createCourse);
+
+/**
+ * @swagger
+ * /api/courses/sort/courses:
+ *   get:
+ *     tags: [Courses]
+ *     summary: Get sorted courses
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - in: query
+ *         name: field
+ *         required: true
+ *         schema:
+ *           type: string
+ *         description: Field to sort by
+ *       - in: query
+ *         name: algorithm
+ *         schema:
+ *           type: string
+ *           enum: [quick, merge]
+ *         description: Sorting algorithm to use
+ *     responses:
+ *       200:
+ *         description: Sorted list of courses
+ */
+router.get("/sort", auth, authorize("instructor"), cache(300), courseController.sortCourses);
+
+
+/**
+ * @swagger
  * /api/courses/{courseCode}:
  *   get:
  *     tags: [Courses]
@@ -98,51 +146,5 @@ router.get("/:courseCode", auth, cache(300), courseController.getCourse);
 router.put("/:courseCode", auth, authorize("instructor"), courseController.updateCourse);
 router.delete("/:courseCode", auth, authorize("instructor"), courseController.deleteCourse);
 
-/**
- * @swagger
- * /api/courses:
- *   post:
- *     tags: [Courses]
- *     summary: Create new course
- *     security:
- *       - bearerAuth: []
- *     requestBody:
- *       required: true
- *       content:
- *         application/json:
- *           schema:
- *             $ref: '#/components/schemas/Course'
- *     responses:
- *       201:
- *         description: Course created successfully
- */
-router.post("/", auth, authorize("instructor"), courseController.createCourse);
-
-/**
- * @swagger
- * /api/courses/sort/courses:
- *   get:
- *     tags: [Courses]
- *     summary: Get sorted courses
- *     security:
- *       - bearerAuth: []
- *     parameters:
- *       - in: query
- *         name: field
- *         required: true
- *         schema:
- *           type: string
- *         description: Field to sort by
- *       - in: query
- *         name: algorithm
- *         schema:
- *           type: string
- *           enum: [quick, merge]
- *         description: Sorting algorithm to use
- *     responses:
- *       200:
- *         description: Sorted list of courses
- */
-router.get("/sort/courses", auth, authorize("instructor"), courseController.sortCourses);
 
 module.exports = router;
