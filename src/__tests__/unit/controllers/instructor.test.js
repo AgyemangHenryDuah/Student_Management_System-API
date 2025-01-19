@@ -2,10 +2,12 @@ const Instructor = require('../../../models/Instructor');
 const User = require('../../../models/User');
 const instructorController = require('../../../controllers/instructorController');
 const { validateInstructor } = require('../../../validators/instructorValidator');
+const {generateAccessToken, generateRefreshToken} = require('../../../utils/token');
 const jwt = require('jsonwebtoken');
 const winston = require('winston');
 
 
+jest.mock('../../../utils/token');
 jest.mock('../../../models/Instructor');
 jest.mock('../../../models/User');
 jest.mock('../../../validators/instructorValidator');
@@ -169,6 +171,11 @@ describe('Instructor Controller', () => {
     });
 
     describe('createInstructor', () => {
+
+        beforeEach(() => {
+            generateAccessToken.mockReturnValue('mockAccessToken');
+            generateRefreshToken.mockReturnValue('mockRefreshToken');
+        })
         it('should create new instructor and user', async () => {
             const instructorData = {
                 email: 'test@test.com',
@@ -214,10 +221,16 @@ describe('Instructor Controller', () => {
 
             expect(res.status).toHaveBeenCalledWith(201);
             expect(res.json).toHaveBeenCalledWith({
-                message: "Instructor registered succefully",
-                token: 'token123',
+                message: 'Instructor registered succefully',
+                accessToken: 'mockAccessToken',
+                refreshToken: 'mockRefreshToken',
                 instructor: mockInstructor
             });
+            // expect(res.json).toHaveBeenCalledWith({
+            //     message: "Instructor registered succefully",
+            //     token: 'token123',
+            //     instructor: mockInstructor
+            // });
         });
 
         it('should handle validation error', async () => {

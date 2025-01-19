@@ -2,10 +2,12 @@ const Student = require('../../../models/Student');
 const User = require('../../../models/User');
 const studentController = require('../../../controllers/studentController');
 const { validateStudent } = require('../../../validators/studentValidator');
-const jwt = require('jsonwebtoken');
+const { generateAccessToken, generateRefreshToken } = require('../../../utils/token')
 const { quickSort, mergeSort } = require('../../../utils/sortingAlgorithms');
 const logger = require('../../../config/logger');
 
+
+jest.mock('../../../utils/token')
 jest.mock('../../../models/Student');
 jest.mock('../../../models/User');
 jest.mock('../../../validators/studentValidator');
@@ -62,18 +64,31 @@ describe('Student Controller', () => {
         });
 
         it('should filter students by name', async () => {
+            const mockUsers = [{ _id: 'user1' }, { _id: 'user2' }];
             const mockStudents = [{ id: 1, user: { firstName: 'John' } }];
+
+            // Mock User.find()
+            User.find.mockReturnValue({
+                select: jest.fn().mockResolvedValue(mockUsers)
+            });
+
             mockStudentFind.lean.mockResolvedValue(mockStudents);
             Student.countDocuments.mockResolvedValue(1);
 
             const req = mockRequest({}, {}, { name: 'John' });
             await studentController.getAllStudents(req, res);
 
-            expect(Student.find).toHaveBeenCalledWith({
-                "$or": [
-                    { "user.firstName": expect.any(RegExp) },
-                    { "user.lastName": expect.any(RegExp) }
+            // Verify User.find was called with correct regex
+            expect(User.find).toHaveBeenCalledWith({
+                $or: [
+                    { firstName: expect.any(RegExp) },
+                    { lastName: expect.any(RegExp) }
                 ]
+            });
+
+            // Verify Student.find was called with user IDs
+            expect(Student.find).toHaveBeenCalledWith({
+                user: { $in: ['user1', 'user2'] }
             });
         });
 
@@ -243,29 +258,32 @@ describe('Student Controller', () => {
 
         beforeEach(() => {
             validateStudent.mockReturnValue({ error: null });
+            generateAccessToken.mockReturnValue('mockAccessToken');
+            generateRefreshToken.mockReturnValue('mockRefreshToken');
+
+            // Mock Student implementation
+            Student.mockImplementation((data) => ({
+                ...data,
+                _id: 'mockStudentId',
+                save: jest.fn().mockResolvedValue({ ...data, _id: 'mockStudentId' })
+            }));
         });
 
+
         it('should create a new student successfully', async () => {
-            const mockUser = {
-                _id: 'userId',
-                save: jest.fn().mockResolvedValue({ _id: 'userId' })
+            const mockPopulatedStudent = {
+                _id: 'mockStudentId',
+                user: {
+                    _id: 'mockUserId',
+                    firstName: mockStudentData.firstName,
+                    lastName: mockStudentData.lastName,
+                    email: mockStudentData.email
+                }
             };
 
-            const mockStudentDoc = {
-                _id: 'studentId',
-                save: jest.fn().mockResolvedValue({ _id: 'studentId' })
-            };
-
-            User.mockImplementation(() => mockUser);
-            Student.mockImplementation(() => mockStudentDoc);
             Student.findById.mockReturnValue({
-                populate: jest.fn().mockResolvedValue({
-                    ...mockStudentDoc,
-                    user: mockUser
-                })
+                populate: jest.fn().mockResolvedValue(mockPopulatedStudent)
             });
-
-            jwt.sign.mockReturnValue('mockToken');
 
             const req = mockRequest({}, mockStudentData);
             await studentController.createStudent(req, res);
@@ -273,8 +291,9 @@ describe('Student Controller', () => {
             expect(res.status).toHaveBeenCalledWith(201);
             expect(res.json).toHaveBeenCalledWith({
                 message: 'Student created succefully',
-                token: 'mockToken',
-                student: expect.any(Object)
+                accessToken: 'mockAccessToken',
+                refreshToken: 'mockRefreshToken',
+                student: mockPopulatedStudent
             });
         });
 

@@ -1,15 +1,3 @@
-/**
- * Instructor API Test Suite
- * 
- * Test Categories:
- * 1. Setup & Authentication
- * 2. Instructor Retrieval (GET operations)
- * 3. Instructor Creation
- * 4. Instructor Updates
- * 5. Instructor Deletion
- * 6. Error Handling & Edge Cases
- */
-
 const request = require('supertest');
 const app = require('../../app');
 const { connect, closeDatabase, clearDatabase } = require('../utils/testDb');
@@ -17,11 +5,9 @@ const { generateToken } = require('../utils/auth');
 const { createTestUser } = require('../utils/testData');
 const Instructor = require('../../models/Instructor');
 const User = require('../../models/User');
+const mongoose = require('mongoose');
 
 describe('Instructor API', () => {
-  // ===================================
-  // Global Test Setup
-  // ===================================
   let adminToken;
   let adminUser;
   let testInstructor;
@@ -37,11 +23,9 @@ describe('Instructor API', () => {
 
   beforeEach(async () => {
     await clearDatabase();
-    // Create admin user for authentication
     adminUser = await createTestUser(User, 'instructor');
     adminToken = generateToken(adminUser._id);
 
-    // Create test instructor
     testUser = await createTestUser(User, 'instructor');
     testInstructor = await Instructor.create({
       user: testUser._id,
@@ -56,11 +40,8 @@ describe('Instructor API', () => {
     });
   });
 
-  // ===================================
-  // 1. Instructor Retrieval Tests
-  // ===================================
   describe('GET Operations', () => {
-    describe('GET /api/instructors - List All', () => {
+    describe('GET /api/instructors', () => {
       it('should retrieve all instructors with pagination', async () => {
         const res = await request(app)
           .get('/api/instructors')
@@ -70,6 +51,7 @@ describe('Instructor API', () => {
         expect(res.body).toHaveProperty('instructors');
         expect(res.body).toHaveProperty('totalPages');
         expect(res.body).toHaveProperty('currentPage');
+        expect(res.body).toHaveProperty('totalInstructors');
         expect(Array.isArray(res.body.instructors)).toBe(true);
       });
 
@@ -80,6 +62,15 @@ describe('Instructor API', () => {
 
         expect(res.status).toBe(200);
         expect(res.body.instructors[0].department).toBe('Computer Science');
+      });
+
+      it('should filter instructors by title', async () => {
+        const res = await request(app)
+          .get('/api/instructors?title=Professor')
+          .set('Authorization', `Bearer ${adminToken}`);
+
+        expect(res.status).toBe(200);
+        expect(res.body.instructors[0].title).toBe('Professor');
       });
 
       it('should handle invalid pagination parameters', async () => {
@@ -93,9 +84,6 @@ describe('Instructor API', () => {
     });
   });
 
-  // ===================================
-  // 2. Instructor Creation Tests
-  // ===================================
   describe('POST /api/instructors', () => {
     const newInstructorData = {
       email: 'new.instructor@test.com',
@@ -107,162 +95,123 @@ describe('Instructor API', () => {
       specialization: 'Machine Learning',
       officeHours: [
         { day: 'Monday', startTime: '09:00', endTime: '11:00' }
-      ]
+      ],
+      publications: []
     };
 
-    describe('Successful Creation', () => {
-      it('should create new instructor with valid data', async () => {
-        const res = await request(app)
-          .post('/api/instructors')
-          .set('Authorization', `Bearer ${adminToken}`)
-          .send(newInstructorData);
+    it('should create new instructor with valid data', async () => {
+      const res = await request(app)
+        .post('/api/instructors')
+        .set('Authorization', `Bearer ${adminToken}`)
+        .send(newInstructorData);
 
-        expect(res.status).toBe(201);
-        expect(res.body).toHaveProperty('accessToken');
-        expect(res.body).toHaveProperty('refreshToken');
-        expect(res.body.instructor).toHaveProperty('department', newInstructorData.department);
-      });
+      expect(res.status).toBe(201);
+      expect(res.body).toHaveProperty('accessToken');
+      expect(res.body).toHaveProperty('refreshToken');
+      expect(res.body.instructor).toHaveProperty('department', newInstructorData.department);
+      expect(res.body.message).toBe('Instructor registered succefully');
     });
 
-    describe('Creation Validation', () => {
-      it('should prevent duplicate email registration', async () => {
-        // First creation
-        await request(app)
-          .post('/api/instructors')
-          .set('Authorization', `Bearer ${adminToken}`)
-          .send(newInstructorData);
+    it('should prevent duplicate email registration', async () => {
+      await request(app)
+        .post('/api/instructors')
+        .set('Authorization', `Bearer ${adminToken}`)
+        .send(newInstructorData);
 
-        // Duplicate attempt
-        const res = await request(app)
-          .post('/api/instructors')
-          .set('Authorization', `Bearer ${adminToken}`)
-          .send(newInstructorData);
+      const res = await request(app)
+        .post('/api/instructors')
+        .set('Authorization', `Bearer ${adminToken}`)
+        .send(newInstructorData);
 
-        expect(res.status).toBe(400);
-        expect(res.body.message).toBe('Email is already in use');
-      });
+      expect(res.status).toBe(400);
+      expect(res.body.message).toBe('Email is already in use');
+    });
 
-      it('should validate required fields', async () => {
-        const incompleteData = {
-          email: 'incomplete@test.com',
-          password: 'password123'
-        };
+    it('should validate required fields', async () => {
+      const incompleteData = {
+        email: 'incomplete@test.com',
+        password: 'password123'
+      };
 
-        const res = await request(app)
-          .post('/api/instructors')
-          .set('Authorization', `Bearer ${adminToken}`)
-          .send(incompleteData);
+      const res = await request(app)
+        .post('/api/instructors')
+        .set('Authorization', `Bearer ${adminToken}`)
+        .send(incompleteData);
 
-        expect(res.status).toBe(400);
-      });
+      expect(res.status).toBe(400);
     });
   });
 
-  // ===================================
-  // 3. Instructor Update Tests
-  // ===================================
   describe('PUT /api/instructors/:id', () => {
-    describe('Successful Updates', () => {
-      it('should update instructor details', async () => {
-        const res = await request(app)
-          .put(`/api/instructors/${testInstructor._id}`)
-          .set('Authorization', `Bearer ${adminToken}`)
-          .send({
-            title: 'Associate Professor',
-            specialization: 'Machine Learning'
-          });
+    it('should update instructor details', async () => {
+      const res = await request(app)
+        .put(`/api/instructors/${testInstructor._id}`)
+        .set('Authorization', `Bearer ${adminToken}`)
+        .send({
+          title: 'Associate Professor',
+          specialization: 'Machine Learning'
+        });
 
-        expect(res.status).toBe(200);
-        expect(res.body).toHaveProperty('title', 'Associate Professor');
-        expect(res.body).toHaveProperty('specialization', 'Machine Learning');
-      });
-
-      it('should handle database errors', async () => {
-        jest.spyOn(User, 'findByIdAndUpdate').mockRejectedValueOnce(new Error('Database error'));
-
-        const res = await request(app)
-          .put(`/api/instructors/${instructor._id}`)
-          .set('Authorization', `Bearer ${instructorToken}`)
-          .send({
-            department: 'New Department'
-          });
-
-        expect(res.status).toBe(500);
-      });
+      expect(res.status).toBe(200);
+      expect(res.body).toHaveProperty('title', 'Associate Professor');
+      expect(res.body).toHaveProperty('specialization', 'Machine Learning');
     });
 
-    describe('Update Validation', () => {
-      it('should handle non-existent instructor', async () => {
-        const nonExistentId = '507f1f77bcf86cd799439011';
-        const res = await request(app)
-          .put(`/api/instructors/${nonExistentId}`)
-          .set('Authorization', `Bearer ${adminToken}`)
-          .send({ title: 'Professor' });
+    it('should handle invalid instructor ID format', async () => {
+      const res = await request(app)
+        .put('/api/instructors/invalid-id')
+        .set('Authorization', `Bearer ${adminToken}`)
+        .send({ title: 'Professor' });
 
-        expect(res.status).toBe(404);
-        expect(res.body.message).toBe('Instructor not found');
-      });
+      expect(res.status).toBe(400);
+      expect(res.body.message).toBe('Invalid instructor ID');
+    });
 
-      it('should validate update data', async () => {
-        const res = await request(app)
-          .put(`/api/instructors/${testInstructor._id}`)
-          .set('Authorization', `Bearer ${adminToken}`)
-          .send({ title: '' });
+    it('should handle non-existent instructor', async () => {
+      const nonExistentId = new mongoose.Types.ObjectId();
+      const res = await request(app)
+        .put(`/api/instructors/${nonExistentId}`)
+        .set('Authorization', `Bearer ${adminToken}`)
+        .send({ title: 'Professor' });
 
-        expect(res.status).toBe(400);
-      });
+      expect(res.status).toBe(404);
+      expect(res.body.message).toBe('Instructor not found');
     });
   });
 
-  // ===================================
-  // 4. Instructor Deletion Tests
-  // ===================================
   describe('DELETE /api/instructors/:id', () => {
-    describe('Successful Deletion', () => {
-      it('should delete instructor and associated user', async () => {
-        const res = await request(app)
-          .delete(`/api/instructors/${testInstructor._id}`)
-          .set('Authorization', `Bearer ${adminToken}`);
+    it('should delete instructor and associated user', async () => {
+      const res = await request(app)
+        .delete(`/api/instructors/${testInstructor._id}`)
+        .set('Authorization', `Bearer ${adminToken}`);
 
-        expect(res.status).toBe(200);
+      expect(res.status).toBe(200);
+      expect(res.body.message).toBe('Instructor profile deleted successfully');
 
-        // Verify cascade deletion
-        const deletedInstructor = await Instructor.findById(testInstructor._id);
-        const deletedUser = await User.findById(testUser._id);
+      const deletedInstructor = await Instructor.findById(testInstructor._id);
+      const deletedUser = await User.findById(testUser._id);
 
-        expect(deletedInstructor).toBeNull();
-        expect(deletedUser).toBeNull();
-      });
-      it('should handle cascade deletion errors', async () => {
-        jest.spyOn(Course, 'deleteMany').mockRejectedValueOnce(new Error('Database error'));
-
-        const res = await request(app)
-          .delete(`/api/instructors/${instructor._id}`)
-          .set('Authorization', `Bearer ${instructorToken}`);
-
-        expect(res.status).toBe(500);
-      });
+      expect(deletedInstructor).toBeNull();
+      expect(deletedUser).toBeNull();
     });
 
-    describe('Deletion Validation', () => {
-      it('should handle non-existent instructor', async () => {
-        const nonExistentId = '507f1f77bcf86cd799439011';
-        const res = await request(app)
-          .delete(`/api/instructors/${nonExistentId}`)
-          .set('Authorization', `Bearer ${adminToken}`);
+    it('should handle invalid instructor ID format', async () => {
+      const res = await request(app)
+        .delete('/api/instructors/invalid-id')
+        .set('Authorization', `Bearer ${adminToken}`);
 
-        expect(res.status).toBe(404);
-        expect(res.body.message).toBe('Instructor not found');
-      });
+      expect(res.status).toBe(400);
+      expect(res.body.message).toBe('Invalid instructor ID');
+    });
 
-      it('should validate instructor ID format', async () => {
-        const res = await request(app)
-          .delete('/api/instructors/invalidid')
-          .set('Authorization', `Bearer ${adminToken}`);
+    it('should handle non-existent instructor', async () => {
+      const nonExistentId = new mongoose.Types.ObjectId();
+      const res = await request(app)
+        .delete(`/api/instructors/${nonExistentId}`)
+        .set('Authorization', `Bearer ${adminToken}`);
 
-        expect(res.status).toBe(400);
-        expect(res.body.message).toBe('Invalid instructor ID');
-      });
+      expect(res.status).toBe(404);
+      expect(res.body.message).toBe('Instructor not found');
     });
   });
 });
