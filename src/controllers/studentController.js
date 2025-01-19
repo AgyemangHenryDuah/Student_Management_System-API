@@ -12,16 +12,23 @@ exports.getAllStudents = async (req, res) => {
     const { name, grade, department, sort, page = 1, limit = 10 } = req.query;
     const query = {};
 
+    if (grade) query.grade = grade;
+    if (department) query.department = department;
+
 
     if (name) {
       const nameRegex = new RegExp(name, "i");
-      query["$or"] = [
-        { "user.firstName": nameRegex },
-        { "user.lastName": nameRegex },
-      ];
+      const matchingUsers = await User.find({
+        $or: [
+          { firstName: nameRegex },
+          { lastName: nameRegex }
+        ]
+      }).select('_id');
+
+      const userIds = matchingUsers.map(user => user._id);
+      query.user = { $in: userIds };
     }
-    if (grade) query.grade = grade;
-    if (department) query.department = department;
+    
 
 
     const students = await Student.find(query)
