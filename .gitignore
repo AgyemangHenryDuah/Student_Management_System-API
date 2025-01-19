@@ -20,5 +20,6 @@ coverage/
 .DS_Store
 
 misc/
+
 __test__/
 
